@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500&display=swap');
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -60,7 +60,7 @@ section {
   padding: 1rem 3rem;
   font-size: 2rem;
   color: #fff;
-  background: #222c45;
+  background: #161622;
   border: 0.2rem solid #222c45;
   cursor: pointer;
   font-weight: bolder;
@@ -68,8 +68,8 @@ section {
 }
 
 .btn:hover {
-  background: none;
-  color: #222c45;
+  background: #8e7b96;
+  color: #fff;
 }
 
 .line-down {
@@ -675,8 +675,9 @@ section {
   font-size: 2rem;
 }
 span{
-  font-family: 'Bungee Shade', cursive;
-  letter-spacing: 3px;
+  font-family: 'Montserrat Alternates', sans-serif;
+ font-weight: lighter;
+  letter-spacing: -1px;
 }
 
 @media (max-width: 1200px) {
