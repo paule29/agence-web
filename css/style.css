@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Nunito:wght@300;400;500&display=swap');
 * {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Nunito', sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -22,11 +22,11 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background: #fff;
+  background: #f4f2fd;
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #eed6d3;
+  background: #64a9a5;
 }
 
 section {
@@ -53,23 +53,24 @@ section {
 }
 
 .btn {
+  font-family: 'Inter', sans-serif;
   display: inline-block;
   width: auto;
   text-align: center;
   margin-top: 1rem;
   padding: 1rem 3rem;
   font-size: 2rem;
-  color: #fff;
-  background: #161622;
-  border: 0.2rem solid #222c45;
+  color: #f0f5f8;
+  background: #64a9a5;
+  border: none;
   cursor: pointer;
-  font-weight: bolder;
+  font-weight: normal;
   border-radius: .5rem;
 }
 
 .btn:hover {
-  background: #8e7b96;
-  color: #fff;
+  background: #fefefe;
+  color: #161616;
 }
 
 .line-down {
@@ -86,7 +87,7 @@ section {
   right: 0;
   height: 100%;
   width: 100%;
-  background: #8e7b96;
+  background: #64a9a5;
   z-index: -1;
   -webkit-clip-path: polygon(0 85%, 100% 75%, 100% 100%, 0% 100%);
           clip-path: polygon(0 85%, 100% 75%, 100% 100%, 0% 100%);
@@ -124,7 +125,7 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: #fff;
+  background: #f0f5f8;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem 9%;
@@ -133,19 +134,20 @@ section {
 
 .header .logo {
   font-size: 2rem;
-  color: #222c45;
+  color: #161616;
   letter-spacing: 1px;
-  font-family: 'Bungee Shade', cursive;
+  font-family: 'Bungee Shade', cursive; ! important
 }
 
 .header .navbar a {
   margin: 0 1rem;
   font-size: 2rem;
-  color: #222c45;
+  color: #161622;
 }
 
 .header .navbar a:hover {
   text-decoration: underline;
+  color: #64a9a5;
 }
 
 .header .btn {
@@ -191,7 +193,7 @@ section {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 2rem;
-  background: #eed6d3;
+  background: #fff1d9;
 }
 
 .home .image {
@@ -224,7 +226,7 @@ section {
 }
 
 .services {
-  background: #9ebfcf;
+  background: #c6cbcb;
 }
 
 .services .box-container {
@@ -382,7 +384,7 @@ section {
 }
 
 .pricing {
-  background: #eed6d3;
+  background: #c5f1fe;
   text-align: center;
 }
 
@@ -391,8 +393,8 @@ section {
   border-radius: .5rem;
   padding: .5rem;
   margin-bottom: 3rem;
-  background: #fff;
-  border: 0.2rem solid #222c45;
+  background: #f0f5f8;
+  border: 0.2rem solid #3b2d60;
 }
 
 .pricing .price-toggler span {
@@ -401,13 +403,13 @@ section {
   padding: 1rem 3rem;
   font-size: 1.7rem;
   cursor: pointer;
-  color: #222c45;
+  color: #3b2d60;
   border-radius: .5rem;
 }
 
 .pricing .price-toggler span.active {
-  background: #222c45;
-  color: #fff;
+  background: #c5f1fe;
+  color: black;
 }
 
 .pricing .box-container {
@@ -421,15 +423,15 @@ section {
 .pricing .box-container .box {
   padding: 3rem 2rem;
   border-radius: .5rem;
-  background: #fff;
+  background: #f0f5f8;
 }
 
 .pricing .box-container .box:nth-child(2) {
-  border: 0.2rem solid #222c45;
+  border: 0.2rem solid #64a9a5;
 }
 
 .pricing .box-container .box:nth-child(2) h3 {
-  background: #eed6d3;
+  background: #c5f1fe;
 }
 
 .pricing .box-container .box h3 {
@@ -455,7 +457,7 @@ section {
 .pricing .box-container .box .price .month span,
 .pricing .box-container .box .price .year span {
   font-size: 5rem;
-  font-family: 'Roboto', sans-serif; !important
+  font-family: 'Inter', sans-serif; 
 }
 
 .pricing .box-container .box .price .year {
@@ -545,7 +547,7 @@ section {
 
 .faq .accordion-container .accordion {
   margin: 1rem 0;
-  background-color: #fff;
+  background-color: #fefefe;
   border-radius: .5rem;
 }
 
@@ -612,7 +614,7 @@ section {
 }
 
 .newsletter .content p a {
-  color: #222c45;
+  color: #3b2d60;
 }
 
 .newsletter .content p a:hover {
@@ -623,7 +625,7 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 0.2rem solid #222c45;
+  border: 0.2rem solid #3b2d60;
   border-radius: .5rem;
   padding: .5rem;
   margin: 1rem 0;
@@ -641,7 +643,7 @@ section {
 }
 
 .footer {
-  background: #eed6d3;
+  background: #dde6ff;
 }
 
 .footer .box-container {
@@ -659,7 +661,7 @@ section {
 
 .footer .box-container .box a {
   font-size: 2rem;
-  color: #222c45;
+  color: #3b2d60;
   display: block;
   padding: 1rem 0;
 }
@@ -676,7 +678,7 @@ section {
 }
 span{
   font-family: 'Montserrat Alternates', sans-serif;
- font-weight: lighter;
+  font-weight: lighter;
   letter-spacing: -1px;
 }
 
@@ -716,8 +718,8 @@ span{
     top: 99%;
     left: 0;
     right: 0;
-    border-top: 0.2rem solid #222c45;
-    background: #fff;
+    border-top: 0.2rem solid #3b2d60;
+    background: #dde6ff;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     -webkit-transition: .2s linear;
