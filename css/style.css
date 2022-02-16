@@ -70,7 +70,7 @@ section {
 
 .btn:hover {
   background: #fefefe;
-  color: #161616;
+  color: #64a9a5;
 }
 
 .line-down {
@@ -136,7 +136,7 @@ section {
   font-size: 2rem;
   color: #161616;
   letter-spacing: 1px;
-  font-family: 'Bungee Shade', cursive; ! important
+  font-family: 'Inter', sans-serif;
 }
 
 .header .navbar a {
@@ -270,6 +270,7 @@ section {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 2rem;
+   background: #c5f1fe;
 }
 
 .about .image {
@@ -286,6 +287,7 @@ section {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 42rem;
           flex: 1 1 42rem;
+         
 }
 
 .about .content h3 {
@@ -300,7 +302,7 @@ section {
 }
 
 .steps {
-  background: #9ebfcf;
+  background: #f0f5f8;
 }
 
 .steps .box-container {
